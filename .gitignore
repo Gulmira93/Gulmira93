@@ -1,3 +1,5 @@
 .idea/
 --pycache--/
-.DC_Store
+.DS_Store
+
+
