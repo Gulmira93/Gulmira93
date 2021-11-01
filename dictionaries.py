@@ -85,7 +85,7 @@ print('#### Looping the dictionaries')
 # by default (base on keys)
 # by keys
 # by value
-# by keys,values
+# by keys,value
 
 
 
