@@ -9,7 +9,11 @@ msg="we are looking at string functions in python."
 #print(fullname.title())
 #print(msg.replace('.', '!!!!!!!').title())
 #print(msg.replace('python', 'java'))
-
+print(f"fullname.isdigit() >> {fullname.isdigit()}")
+print(f"fullname.isdigit() >> {fullname.islower()}")
+print(f"fullname.isdigit() >> {fullname.isupper()}")
+print(f"fullname.isdigit() >> {fullname.istitle()}")
+print(f"467.isdigit() >> {'467'.istitle()}")
 
 #Concatenation
 msg1 = fullname + ',' + msg
@@ -51,7 +55,7 @@ print(f"num-num2 = {num-num2}")
 print(f"num*num2 = {num*num2}")
 print(f"num/num2 = {num/num2}")
 
-#str (expression) - this will conver the data type to str
+#str (expression) - this will convert+ the data type to str
 print("Value of num is : " + str(num))
 print("num + num2 = " + str(num + num2))
 
@@ -62,8 +66,9 @@ print(f"num + num3 = {num + int(num3)}")
 print(f"3**2 = {3**2}") # 3**2 means 3*3 , or square of 3, '**' means exponents
 
 num4 = "34.37"
-
+print("num+num4 = " + str(num+num4))
 print(f"num + num2 = {num  + float(num4)}")
+
 
 print(int(45.5679))
 
@@ -85,7 +90,10 @@ msg="python is not easy for me."
 print(msg)
 
 
-
+num5 = "567"
+print(f"num+num5 = {num+int(num5)}")
+num6 = 36.67
+print(f"num+num6 = {num+float(num6)}")
 
 
 
